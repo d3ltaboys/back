@@ -4,7 +4,7 @@
       "site1.com": {
         active: true,
         url: "https://behtarin-site-shartbandienfejar.com",
-        title: "بهترین سایت انفجار",
+        title: "بهترین سایت شرط بندی انفجار",
         description: "بهترین سایت انفجار",
         buttonText: "بهترین سایت انفجار"
       },
@@ -18,7 +18,7 @@
       "default": {
         active: true,
         url: "https://behtarin-site-shartbandienfejar.com",
-        title: "بهترین سایت انفجار",
+        title: "بهترین سایت شرط بندی انفجار",
         description: "بهترین سایت انفجار",
         buttonText: "بهترین سایت انفجار"
       }
