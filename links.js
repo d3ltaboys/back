@@ -3,7 +3,6 @@
         if (window.linkBoxLoaded) return;
         window.linkBoxLoaded = true;
 
-        // لیست مشتریان - هر کدام که true باشد نمایش داده می‌شود
         var clients = [
             {
                 active: true,
@@ -29,7 +28,7 @@
             }
         ];
 
-        // پیدا کردن پاراگراف هدف برای جاگذاری
+  
         var paragraphs = document.getElementsByTagName("p");
         var targetElement = null;
 
@@ -41,7 +40,6 @@
             targetElement = document.body;
         }
 
-        // ایجاد باکس برای هر مشتری فعال
         for (var i = 0; i < clients.length; i++) {
             var data = clients[i];
             if (data.active !== true) continue;
@@ -58,13 +56,11 @@
             title.setAttribute("style", "display:block; font-size:18px; font-weight:bold; color:#000; text-decoration:none; margin-bottom:10px;");
             box.appendChild(title);
 
-            // توضیحات
             var desc = document.createElement("p");
             desc.innerHTML = data.description;
             desc.setAttribute("style", "font-size:14px; color:#555; line-height:1.7; margin:0 0 15px 0;");
             box.appendChild(desc);
 
-            // کیوردها
             if (data.keywords && data.keywords.length > 0) {
                 var keyContainer = document.createElement("div");
                 keyContainer.setAttribute("style", "margin-bottom:15px; border-top:1px solid #eee; padding-top:10px;");
@@ -81,7 +77,6 @@
                 box.appendChild(keyContainer);
             }
 
-            // دکمه
             var btn = document.createElement("a");
             btn.href = data.mainUrl;
             btn.target = "_blank";
@@ -89,12 +84,11 @@
             btn.setAttribute("style", "display:inline-block; background:#007bff; color:#fff; padding:10px 25px; border-radius:8px; text-decoration:none; font-weight:bold; font-size:14px;");
             box.appendChild(btn);
 
-            // تزریق باکس به صفحه
             if (targetElement === document.body) {
                 document.body.appendChild(box);
             } else {
                 targetElement.parentNode.insertBefore(box, targetElement.nextSibling);
-                targetElement = box; // برای اینکه باکس بعدی زیر همین باکس بیاید
+                targetElement = box; 
             }
         }
     };
