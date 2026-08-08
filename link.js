@@ -6,22 +6,22 @@
     var clients = [
       {
         active: true,
-        mainUrl: "https://site-shart1.com",
-        title: "معتبرترین سایت انفجار با ضریب بالا",
-        description: "برای بازی در محیطی ایمن و با واریز آنی کلیک کنید.",
-        buttonText: "ورود به سایت معتبر",
+        mainUrl: "https://behtarin-site-shartbandienfejar.com",
+        title: "بهترین سایت شرط بندی انفجار",
+        description: "بهترین سایت شرط‌بندی انفجار با ضریب‌های بالا!",
+        buttonText: "ورود به سایت شرط بندی انفجار",
         keywords: [
           {
             text: "الگوریتم بازی انفجار",
-            url: "https://site-shart1.com/algo"
+            url: "https://behtarin-site-shartbandienfejar.com/"
           },
           {
             text: "سایت انفجار معتبر",
-            url: "https://site-shart1.com/valid"
+            url: "https://behtarin-site-shartbandienfejar.com/"
           },
           {
             text: "برنامه بازی انفجار",
-            url: "https://site-shart1.com/app"
+            url: "https://behtarin-site-shartbandienfejar.com/"
           }
         ]
       },
