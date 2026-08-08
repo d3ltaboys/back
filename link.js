@@ -18,7 +18,7 @@
       },
 
       "another-domain.com": {
-        active: false,
+        active: true,
         mainUrl: "https://site-shart2.com",
         title: "سایت شرط بندی با بونوس ویژه",
         description: "بیشترین بونوس خوش‌آمدگویی برای کاربران جدید.",
