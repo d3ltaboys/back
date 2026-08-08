@@ -8,16 +8,16 @@
             {
                 active: true,
                 mainUrl: "https://behtarin-site-shartbandienfejar.com/",
-                title: "سایت شرط بندی انفجارا",
+                title: "بهترین سایت شرط بندی انفجار",
                 description: "برای بازی در محیطی ایمن و با واریز آنی کلیک کنید.",
-                buttonText: "ورود به سایت معتبر",
+                buttonText: "ورود به سایت شرط بندی انفجار",
                 keywords: [
-                    { text: "الگوریتم بازی انفجار", url: "https://site-shart1.com/algo" },
-                    { text: "سایت انفجار معتبر", url: "https://site-shart1.com/valid" }
+                    { text: "الگوریتم بازی انفجار", url: "https://behtarin-site-shartbandienfejar.com" },
+                    { text: "سایت انفجار معتبر", url: "https://behtarin-site-shartbandienfejar.com" }
                 ]
             },
             {
-                active: true,
+                active: false,
                 mainUrl: "https://site-shart2.com",
                 title: "سایت شرط بندی با بونوس ویژه",
                 description: "بیشترین بونوس خوش‌آمدگویی برای کاربران جدید.",
